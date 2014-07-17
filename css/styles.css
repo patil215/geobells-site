@@ -1,0 +1,268 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    /*font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.navbar .nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar {
+    background-color: #0a7e07;
+}
+
+.lb{
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    background: url(../img/cover.jpg) no-repeat center center; 
+    background-size: cover;
+    text-align: left;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 5em;
+    font-weight: 300;
+/*  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); */
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+
+.intro-message > h3 {
+/*  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); */
+    font-weight: 300;
+}
+
+.textvert{
+/*
+    display: inline;
+    border: solid 1px red;
+    top: 50%;
+    transform-y: -50%;
+*/
+
+    
+}
+
+@media (max-width: 767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+    
+    .textvert > h2{
+        font-size: 1.75em;
+        
+    }
+    
+    .tb{
+        text-align: center;
+    }
+    
+        .section-heading-spacer {
+            clear: both;
+            display: none;
+          margin-left: auto;
+          margin-right: auto;
+        }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.content-section-b {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 50px 0;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    border-top: 3px solid #e7e7e7;
+    width: 200px;
+    float: left;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/cover.jpg) no-repeat center center;
+    background-position-y: 20%;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.banner h2 {
+    margin: 0;
+/*  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); */
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner .btn{
+    padding: 20px;
+
+}
+
+.banner .btn .network-name{
+    font-size: 1.2em;
+    font-weight: 300;
+
+}
+
+.banner-social-buttons {
+/*  float: right; */
+    margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+    ul.banner-social-buttons {
+/*      float: left; */
+        margin-top: 15px;
+    }   
+}
+
+@media (min-width: 1199px){
+    .intro-header {
+        padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+        padding-bottom: 50px;
+        background: url(../img/cover.jpg) no-repeat center center fixed; 
+        background-size: cover;
+        text-align: left;
+    }
+    
+    .banner {
+        padding: 100px 0;
+        color: #f8f8f8;
+        background: url(../img/cover.jpg) no-repeat center center fixed;
+        background-position-y: 20%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner h2 {
+        margin: 0;
+/*      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); */
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }   
+}
+
+@media (min-width: 767px){
+    .short{
+        max-height: 250px;
+    }   
+    
+    .shortPhone{
+        max-height: 670px;
+    }   
+    
+    .tb{
+        /*
+    display: table;
+        border: solid 1px blue;
+        position: relative;
+    */
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+    
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+    
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+    }
+
+
+
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
