@@ -14,6 +14,11 @@ p, ol > li {
     font-weight: 400;
 }
 
+p.contact {
+    font-size: 18px;
+    font-weight:400;
+}
+
 .navbar .nav > li > a {
     color: #FFFFFF;
 }
