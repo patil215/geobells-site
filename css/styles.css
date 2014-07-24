@@ -9,6 +9,13 @@ body, h1, h2, h3, h4, h5, h6 {
 .navbar-toggle {
     border-width: 0;
 }
+
+.img-nav {
+    display: inline-block;
+    min-height: 50px;
+    max-height: 50px; 
+}
+
 p, ol > li {
     font-family: Roboto;
     font-weight: 400;
