@@ -53,6 +53,10 @@ p.contact {
     background-size: cover;
     text-align: left;
 }
+.alternate-header {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
 .intro-message {
     position: relative;
     padding-top: 20%;
